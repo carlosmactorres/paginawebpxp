@@ -1,0 +1,78 @@
+@font-face{
+  font-family: "comix";
+  src: url("Comix Loud.ttf")
+}
+
+header{
+  background: #004ff8;
+  height: 250px;
+  /*opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.btn-home{
+  background: rgb(226, 206, 27);
+  color: #fff;
+}
+.btn-home:hover{
+  background: #809910
+}
+
+
+
+
+  @media (max-width: 768px) {
+    #logoHeader2 {
+        width: 50%;
+        height: 50%;
+        margin: 0px
+      }
+    .minavbar{
+    background-color: #004ff8
+    }
+    header{
+      display: none;
+    }
+    }
+    @media (min-width: 768px){
+      .navbar-nav li{
+        
+        margin: 10px 
+      }
+      .navbar-nav .btn{
+        width: 200px
+      } 
+      .navbar-nav{
+        position: relative;
+        top: -50px
+      }
+      #logoHeader{
+        margin: 10px 30px;
+        position: relative;
+        float: left;
+        
+      }
+      #mainTitle{
+        
+        top: 70px;
+        font-size: 80px;
+        font-family: "comix";
+        position: relative;
+        left: 50%;
+        color:#fff;
+        transform: translate(-50%, 0px);
+        -webkit-transform: translate(-50%, 0px);
+        
+        
+      }
+      #img-body{
+        position: absolute;
+        top: 0px;
+        z-index: -1
+      }
+      .navbar-brand{
+        display: none;
+      }
+      
+      
+    }
